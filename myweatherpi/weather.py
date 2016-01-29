@@ -32,7 +32,7 @@ MAX_ATTEMPTS = 10
 
 config = configparser.ConfigParser()
 
-config.read('/home/pi/pd/py/weather/weather.cfg')
+config.read('/home/pi/pd/pi/myweather/weather.cfg')
 
 config_twitter = config['Twitter']
 consumer_key = config_twitter.get('ConsumerKey', '')
